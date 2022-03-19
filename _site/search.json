@@ -1,0 +1,21 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this site",
+      "description": "Some additional details about the website",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-03-19T09:43:19-07:00"
+    },
+    {
+      "path": "index.html",
+      "title": "Nikole Vannest",
+      "description": "Welcome to the website. I hope you enjoy it!\n",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-03-19T09:43:31-07:00"
+    }
+  ],
+  "collections": []
+}

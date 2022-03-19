@@ -1,0 +1,25 @@
+---
+title: "Nikole Vannest"
+image: "nikole.jpg"
+links:
+  - label: LinkedIn
+    url: "https://www.linkedin.com/in/nikole-vannest/"
+  - label: GitHub
+    url: "https://github.com/nrvannest"
+  - label: UCSB Email
+    url: "nvannest@bren.ucsb.edu"
+  - label: Personal Email
+    url: "nikolevannest@gmail.com"
+output:
+  postcards::jolla
+site: distill::distill_website
+---
+ 
+I am a master's candidate at the University of California - Santa Barbara's Bren School 
+for Environmental Science and Management, currently residing in Santa Barbara, CA.    
+  
+I am currently working on my thesis project - Exploring Mountain Lion Connectivity 
+in Central and Southern California, in collaboration with The Nature Conservancy at 
+the Jack and Laura Dangermond Preserve.
+  
+I love talking about gardening, travel and plant ID.
