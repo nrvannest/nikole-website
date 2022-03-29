@@ -1,0 +1,43 @@
+---
+title: "UCSB Bren School Master's Group Project"
+description: |
+  Estimating Mountain Lion Habitat Connectivity to Guide Wildlife Conservation at The Nature Conservancy’s Jack and Laura Dangermond Preserve
+author:
+  - name: Nikole Vannest
+date: 2022-03-28
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+### About
+  
+My master's thesis consisted of a group project in collaboration with The Nature Conservancy at the Jack and Laura Dangermond Preserve (JDLP) near Point Conception, California. We estimated mountain lion connectivity within and surrounding JLDP using open sourced and TNC-provided data sets, suitability models and connectivity tools: Circuitscape and Omniscape. This project is current and ongoing until I graduate in June 2022. 
+
+### Habitat Suitability
+  
+This map describes habitat suitability in the region from Big Sur to southern Los Padres from open sourced camera trap and community science data.
+  
+```{r}
+library(knitr)
+library(here)
+include_graphics(here("data", "suitability_map.jpg"), dpi = 400)
+```
+
+
+### Connectivity using Omniscape
+  
+Connectivity using Omniscape tool derived from a resistance map originating from the habitat suitability map shown above.
+  
+```{r}
+include_graphics(here("data", "regional_omniscape.jpg"), dpi = 400)
+```
+
+### Comparing Resistance
+  
+This figure shows a resistance map made by my group using community science driven data (iNaturalist and camera traps) as compared to a resistance map from habitat suitability derived from collared moutain lion movement data.
+  
+```{r}
+include_graphics(here("data", "compar_resistance.jpg"), dpi = 400)
+```
+

@@ -1,0 +1,47 @@
+---
+title: "Sortie for the Sierra"
+description: |
+  Parameterizing Individual-Based Model, Sortie-ND, for Sierra Nevada Tree Species Growth and Mortality Under IPCC Climate Change Scenarios
+author:
+  - name: Nikole Vannest
+date: 2022-03-28
+output:
+  distill::distill_article:
+    self_contained: false
+    theme: space
+    code_folding: hide
+---
+
+### My Role
+I aided Dr. Emily Moran and Post-Doc Melaine Aubry-Kientz in hindcasting, developing new behaviors, creating visualizations and performing analyses using newly developed parameters for individual based model, [Sortie-ND](http://www.sortie-nd.org/). 
+
+I performed this work at the University of California - Merced from January 2019 to July 2020 as a contracted position in the Plant Ecology and Evolution Lab through the Sierra Nevada Research Institute (SNRI).
+
+We continued to collaborate on this project and went on to publish our work in 2021 in the Annals of Forest Science: [Modeling the forest dynamics of the Sierra Nevada under climate change using SORTIE-ND](https://annforsci.biomedcentral.com/articles/10.1007/s13595-021-01074-z).
+
+### Data
+All data related to the figures found in this article and data related to my work is open source and can be found in my github repo: [SortieForTheSierra](https://github.com/nrvannest/SortieForTheSierra.git).
+
+### Figures
+  
+```{r}
+library(knitr)
+library(here)
+include_graphics(here("data", "SforSGraph.png"), dpi = 400)
+```
+  
+Figure 1. Compares future climate scenarios by site (BBBPIPO, POFLABMA and UPLOG) 
+
+  
+```{r}
+include_graphics(here("data", "VR_graph.png"), dpi = 400)
+```
+  
+Figure 2. Displays the model validating results for growth (basal area) and mortality (density) at each location for each species present.  
+ 
+  
+```{r out.width='100%', out.height='100%'}
+include_graphics(here("data", "Figure6.png"), dpi = 400)
+```
+  
+Figure 3. Describes the future mortality (density) of all tree species under two climate scenarios (right) and all climate scenarios for two species (left). 

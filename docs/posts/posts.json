@@ -1,0 +1,61 @@
+[
+  {
+    "path": "posts/2022-03-28-dangerzone/",
+    "title": "UCSB Bren School Master's Group Project",
+    "description": "Estimating Mountain Lion Habitat Connectivity to Guide Wildlife Conservation at The Nature Conservancy’s Jack and Laura Dangermond Preserve",
+    "author": [
+      {
+        "name": "Nikole Vannest",
+        "url": {}
+      }
+    ],
+    "date": "2022-03-28",
+    "categories": [],
+    "contents": "\r\nAbout\r\nMy master’s thesis consisted of a group project in collaboration with\r\nThe Nature Conservancy at the Jack and Laura Dangermond Preserve (JDLP)\r\nnear Point Conception, California. We estimated mountain lion\r\nconnectivity within and surrounding JLDP using open sourced and\r\nTNC-provided data sets, suitability models and connectivity tools:\r\nCircuitscape and Omniscape. This project is current and ongoing until I\r\ngraduate in June 2022.\r\nHabitat Suitability\r\nThis map describes habitat suitability in the region from Big Sur to\r\nsouthern Los Padres from open sourced camera trap and community science\r\ndata.\r\n\r\n\r\nlibrary(knitr)\r\nlibrary(here)\r\ninclude_graphics(here(\"data\", \"suitability_map.jpg\"), dpi = 400)\r\n\r\n\r\n\r\n\r\nConnectivity using Omniscape\r\nConnectivity using Omniscape tool derived from a resistance map\r\noriginating from the habitat suitability map shown above.\r\n\r\n\r\ninclude_graphics(here(\"data\", \"regional_omniscape.jpg\"), dpi = 400)\r\n\r\n\r\n\r\n\r\nComparing Resistance\r\nThis figure shows a resistance map made by my group using community\r\nscience driven data (iNaturalist and camera traps) as compared to a\r\nresistance map from habitat suitability derived from collared moutain\r\nlion movement data.\r\n\r\n\r\ninclude_graphics(here(\"data\", \"compar_resistance.jpg\"), dpi = 400)\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2022-03-28T17:14:39-07:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2022-03-28-nasa-develop-colorado-ecological-forecasting/",
+    "title": "NASA DEVELOP: Colorado Ecological Forecasting",
+    "description": "Monitoring Post-Fire Cheatgrass (Bromus Tectorum) Distribution to Inform Management Planning",
+    "author": [
+      {
+        "name": "Nikole Vannest",
+        "url": {}
+      }
+    ],
+    "date": "2022-03-28",
+    "categories": [],
+    "contents": "\r\nAbstract\r\nCheatgrass (Bromus tectorum) is a species of concern across the\r\nwestern United States as it has the potential to outcompete native plant\r\nspecies, reduce biodiversity, and diminish nutrient availability for\r\nungulates. Furthermore, because cheatgrass can quickly dominate\r\ndisturbed landscapes it has the potential to exacerbate wildfire risk by\r\nincreasing fuel loads. In 2020, the Cameron Peak fire burned more than\r\n200,000 acres on the Arapaho and Roosevelt National Forests in\r\nColorado.\r\nThese issues are of imminent concern for our partners at the Forest\r\nService (USFS), as they are tasked with wildfire risk and invasive\r\nspecies mitigation. Disturbances such as wildfires can substantially\r\nincrease the rate and extent of cheatgrass spread. Current cheatgrass\r\nmitigation methods rely on field crews to physically locate cheatgrass\r\non the landscape, which takes time, money, and extensive manpower.\r\nHere, we developed two Random Forest (RF) models within the Software\r\nfor Assisted Habitat Modeling (SAHM) using remote sensing predictors\r\nderived from Sentinel-2 MultiSpectral Instrument (MSI) and Shuttle Radar\r\nTopography Mission (SRTM). The first model identified suitable\r\ncheatgrass habitat while the other detected cheatgrass presence during\r\nthe 2021 growing season. Topographic variables were found to be the most\r\nimportant in driving the habitat suitability model. Cheatgrass detection\r\nwas also found to be possible within a short timespan with limited\r\nimagery surrounding a phenological shift of the plant.\r\nMaps produced from these models provide natural resource managers the\r\nability to implement early detection and rapid response (EDRR) to\r\nprevent the spread of cheatgrass to new locations.\r\nStudy Area\r\n\r\n\r\nhide\r\n\r\nlibrary(knitr)\r\nlibrary(here)\r\ninclude_graphics(here(\"data\", \"StudyArea_Map.jpg\"), dpi = 400)\r\n\r\n\r\n\r\n\r\nData and Sources\r\nData was collected from open sourced satellite imagery (SRTM, PRISM,\r\nand Sentinel-2) and processed using Google Earth Engine (GEE). Code used\r\nfor processing can be found here: https://code.earthengine.google.com/?accept_repo=users/christopherchoi98/cheatgrass_final_scripts\r\nSuitability Model\r\n\r\n\r\nhide\r\n\r\ninclude_graphics(here(\"data\", \"HSM_techpaper.png\"), dpi = 400)\r\n\r\n\r\n\r\n\r\nDetection Model\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2022-03-28T16:12:39-07:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2022-03-28-sortie-nd/",
+    "title": "Sortie for the Sierra",
+    "description": "Parameterizing Individual-Based Model, Sortie-ND, for Sierra Nevada Tree Species Growth and Mortality Under IPCC Climate Change Scenarios",
+    "author": [
+      {
+        "name": "Nikole Vannest",
+        "url": {}
+      },
+      {
+        "name": "",
+        "url": {}
+      },
+      {
+        "name": "",
+        "url": {}
+      }
+    ],
+    "date": "2022-03-28",
+    "categories": [],
+    "contents": "\r\nMy Role\r\nI aided Dr. Emily Moran and Post-Doc Melaine Aubry-Kientz in\r\nhindcasting, developing new behaviors, creating visualizations and\r\nperforming analyses using newly developed parameters for individual\r\nbased model, Sortie-ND.\r\nI performed this work at the University of California - Merced from\r\nJanuary 2019 to July 2020 as a contracted position in the Plant Ecology\r\nand Evolution Lab through the Sierra Nevada Research Institute\r\n(SNRI).\r\nWe continued to collaborate on this project and went on to publish\r\nour work in 2021 in the Annals of Forest Science: Modeling\r\nthe forest dynamics of the Sierra Nevada under climate change using\r\nSORTIE-ND.\r\nData\r\nAll data related to the figures found in this article and data\r\nrelated to my work is open source and can be found in my github repo: SortieForTheSierra.\r\nFigures\r\n\r\n\r\nhide\r\n\r\nlibrary(knitr)\r\nlibrary(here)\r\ninclude_graphics(here(\"data\", \"SforSGraph.png\"), dpi = 400)\r\n\r\n\r\n\r\n\r\nFigure 1. Compares future climate scenarios by site (BBBPIPO,\r\nPOFLABMA and UPLOG)\r\n\r\n\r\nhide\r\n\r\ninclude_graphics(here(\"data\", \"VR_graph.png\"), dpi = 400)\r\n\r\n\r\n\r\n\r\nFigure 2. Displays the model validating results for growth (basal\r\narea) and mortality (density) at each location for each species\r\npresent.\r\n\r\n\r\nhide\r\n\r\ninclude_graphics(here(\"data\", \"Figure6.png\"), dpi = 400)\r\n\r\n\r\n\r\n\r\nFigure 3. Describes the future mortality (density) of all tree\r\nspecies under two climate scenarios (right) and all climate scenarios\r\nfor two species (left).\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2022-03-28T16:54:27-07:00",
+    "input_file": {}
+  }
+]

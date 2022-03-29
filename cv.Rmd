@@ -1,0 +1,10 @@
+---
+title: "Resume"
+output:
+  postcards::jolla
+---
+
+```{r image-ref-for-in-text, echo = FALSE, message=FALSE, fig.align='center', out.width='100%', out.height= '100%'}
+library(knitr)
+include_graphics("Vannest_resume.pdf", dpi = 400)
+```
