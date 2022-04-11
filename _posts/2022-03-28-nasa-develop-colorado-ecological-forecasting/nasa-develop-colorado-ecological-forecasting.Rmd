@@ -22,11 +22,11 @@ Here, we developed two Random Forest (RF) models within the Software for Assiste
 Maps produced from these models provide natural resource managers the ability to implement early detection and rapid response (EDRR) to prevent the spread of cheatgrass to new locations. 
 
 ### Study Area
-
+![](data/StudyArea_Map.jpg)
 ```{r warning=FALSE}
 library(knitr)
 library(here)
-include_graphics(here("data", "StudyArea_Map.jpg"), dpi = 100)
+#include_graphics(here("data", "StudyArea_Map.jpg"), dpi = 100)
 ```
 
 
