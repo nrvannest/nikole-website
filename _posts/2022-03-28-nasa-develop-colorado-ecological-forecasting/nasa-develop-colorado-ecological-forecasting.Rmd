@@ -37,7 +37,7 @@ Data was collected from open sourced satellite imagery (SRTM, PRISM, and Sentine
 ### Suitability Model
 
 ```{r warning=FALSE}
-include_graphics(here("data", "HSM_techpaper.png"), dpi = 400)
+include_graphics(here("data", "HSM_techpaper.PNG"), dpi = 400)
 ```
 
 ### Detection Model
