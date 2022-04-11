@@ -26,7 +26,7 @@ Maps produced from these models provide natural resource managers the ability to
 ```{r warning=FALSE}
 library(knitr)
 library(here)
-include_graphics(here("data", "StudyArea_Map.jpg"), dpi = 400)
+include_graphics(here("data", "StudyArea_Map.jpg"), dpi = 100)
 ```
 
 
@@ -37,13 +37,13 @@ Data was collected from open sourced satellite imagery (SRTM, PRISM, and Sentine
 ### Suitability Model
 
 ```{r warning=FALSE}
-include_graphics(here("data", "HSM_techpaper.PNG"), dpi = 400)
+include_graphics(here("data", "HSM_techpaper.PNG"), dpi = 100)
 ```
 
 ### Detection Model
 
 ```{r warning=FALSE}
-include_graphics(here("data", "detect_techpaper.png"), dpi = 400)
+include_graphics(here("data", "detect_techpaper.png"), dpi = 100)
 ```
 
 
