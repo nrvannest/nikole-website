@@ -42,7 +42,8 @@ include_graphics(here("data", "HSM_techpaper.PNG"), dpi = 100)
 ### Detection Model
 
 ```{r warning=FALSE}
-include_graphics(here("docs", "detect_techpaper.png"), dpi = 100)
+#include_graphics(here("docs", "detect_techpaper.png"), dpi = 100)
+include_graphics("docs\data\detect_techpaper.png")
 ```
 
 
